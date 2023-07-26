@@ -30,3 +30,4 @@ console.log(point);
 // 8. Remove the first item from the array.
 
 
+
