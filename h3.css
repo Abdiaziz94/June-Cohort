@@ -1,0 +1,96 @@
+.flexbox-container{
+    background-color:orange;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    display: flex;  
+    }
+.flexbox-container div{
+    width: 30%;
+    text-align: center;
+    margin: 1px;
+    box-sizing: border-box;
+    }
+.title-2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.809);
+    color: rgb(255, 255, 255);
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 80%
+    
+}
+
+img{
+    width: 30%;
+}
+.FBI-1{
+    height: fit-content;
+}
+.FBI-2{
+    height: fit-content;
+}
+.FBI-3{
+    height: fit-content;
+}
+.FBI-4{
+    height: fit-content;
+}
+.FBI-5{
+    height: fit-content;
+}
+.FBI-6{
+    height: fit-content;
+}
+.FBI-7{
+    height: fit-content;
+}
+.FBI-8{
+    height: fit-content;
+}
+.FBI-9{
+    height: fit-content;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+ }
+  li {
+    float: right;
+  }
+  
+  li a {
+    
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    
+  }
+  footer{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-style: italic
+    }
+  .header{
+    text-align: center;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    height: 10%;  
+}
+.title-1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: xx-small
+    
+}
