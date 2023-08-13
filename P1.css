@@ -89,6 +89,14 @@ header{
     border-style: solid;
     
 }
+.Bleach{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+    
+   
+}
 .image-2{
     width: 200px;
     height: auto;
