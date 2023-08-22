@@ -79,7 +79,6 @@ header{
 .Gojo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     gap: 10px;
@@ -87,22 +86,89 @@ header{
     border: black;
     border-width: 2px;
     border-style: solid;
+    overflow: hidden;
+    margin-left: 30px;
     
 }
 .Bleach{
     display: flex;
-    flex-direction: row;
-    gap: 5px;
-    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 300px;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 30px;
+    overflow: hidden;
     
    
 }
 .image-2{
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 300px;
     cursor: pointer;
- 
+    
 }
 h1{
     font-size: large;
+}
+
+.Anime{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+gap: 2rem;
+margin-top: 20px;
+
+}
+
+.container-3{
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.contact-box{
+    background-color: rgb(164, 22, 26);
+    display: flex;
+    margin-bottom: 40px;
+}
+.box-1{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.box-2{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color:rgba(206,204,205,255)
+    
+
+}
+.h1{
+    margin-bottom: 10px;
+}
+.container-3 p{
+    margin-bottom: 40px;
+}
+.input-row{
+   display: flex;
+   justify-content: space-between;
+   inset-block: 90px;
+   
+   margin-bottom: 40px
+   
+   
+}
+.input-row.input-group{
+    flex-basis: 45%;
+     
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
 }

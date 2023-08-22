@@ -13,7 +13,7 @@ function Farenheittokelvin(){
 }
 Farenheittokelvin()
 
-
+// sleep dept calculator
 function findaverage(){
     var sum=0;
     var average=0;
