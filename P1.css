@@ -1,5 +1,5 @@
 body{
-    background-color:rgba(206,204,205,255)
+    background-color:white
 }
 *{
     padding: 0;
@@ -14,7 +14,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.2rem;
-    background-image: url(zoro.jpeg);
+    background-image: url(Sasuke.jpg);
     height: 500px;
     background-size: cover;
     width: 50%;
@@ -83,11 +83,11 @@ header{
     text-align: center;
     gap: 10px;
     width: 300px;
-    border: black;
-    border-width: 2px;
-    border-style: solid;
     overflow: hidden;
     margin-left: 30px;
+    border-style: solid ;
+    border-color: black;
+    border-radius: 3px;
     
 }
 .Bleach{
@@ -97,13 +97,27 @@ header{
     text-align: center;
     gap: 10px;
     width: 300px;
-    border: black;
-    border-width: 2px;
-    border-style: solid;
     margin-left: 30px;
     overflow: hidden;
+    border-style: solid ;
+    border-color: black;
+    border-radius: 3px;
     
    
+}
+.solo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 300px;
+    overflow: hidden;
+    margin-left: 30px;
+    border-style: solid ;
+    border-color: black;
+    border-radius: 3px;
+
 }
 .image-2{
     width: auto;
@@ -111,6 +125,7 @@ header{
     cursor: pointer;
     
 }
+
 h1{
     font-size: large;
 }
@@ -156,12 +171,13 @@ margin-top: 20px;
    display: flex;
    justify-content: space-between;
    inset-block: 90px;
-   margin-bottom: 40px
+   margin-bottom: 40px;
+   flex-wrap: wrap;
    
    
    
 }
-.input-row.input-group{
+.input-row > div{
     flex-basis: 45%;
      
 }
@@ -169,6 +185,49 @@ margin-top: 20px;
 input{
     width: 100%;
     border: none;
-    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+}
+
+.input-row .inout-group{
+    flex-basis: 45%;
+  
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
     outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button{
+    width: 65px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+.box-1 h3{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.box-2 h3{
+    
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+
+}
+tr td{
+    padding-top: 20px;
 }
