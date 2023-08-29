@@ -1,5 +1,5 @@
 body{
-    background-color:white
+    background-color:rgba(255, 255, 255, 0.751)
 }
 *{
     padding: 0;
@@ -11,18 +11,19 @@ body{
 }
 
 .container-2{
-    max-width: 1200px;
+    max-width: 1370px;
     margin: 0 auto;
     padding: 0 1.2rem;
     background-image: url(Sasuke.jpg);
-    height: 500px;
+    height: 800px;
     background-size: cover;
-    width: 50%;
+    width: 90%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
 }
+
 .container-1{
     max-width: 1200px;
     margin: 0 auto;
@@ -87,7 +88,7 @@ header{
     margin-left: 30px;
     border-style: solid ;
     border-color: black;
-    border-radius: 3px;
+    border-radius: 2px;
     
 }
 .Bleach{
@@ -101,7 +102,7 @@ header{
     overflow: hidden;
     border-style: solid ;
     border-color: black;
-    border-radius: 3px;
+    border-radius: 2px;
     
    
 }
@@ -116,7 +117,7 @@ header{
     margin-left: 30px;
     border-style: solid ;
     border-color: black;
-    border-radius: 3px;
+    border-radius: 2px;
 
 }
 .image-2{
@@ -230,4 +231,10 @@ tr td:first-child{
 }
 tr td{
     padding-top: 20px;
+}
+@media only screen and (max-width: 425px) {
+    body{
+        width: 425px;
+        
+    }
 }
