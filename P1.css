@@ -232,6 +232,7 @@ tr td{
 
     .container-3{
         width: 100%;
+        text-align: center;
     }
 
     .contact-box{
@@ -246,6 +247,9 @@ tr td{
         max-width: 700px;
         background-size: cover;
    
+    }
+    .About{
+        text-align: center;
     }
     
 }
